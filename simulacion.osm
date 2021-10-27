@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.3' generator='SimTrafficTM'>
+<node id='2' lat='-3.613935404673936E-4' lon='-0.007251274402245792' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='3' lat='-4.1560257153750265E-4' lon='0.0021179464838242657' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='4' lat='0.0036681444357440454' lon='0.003939739433893444' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='5' lat='-4.1560257153750265E-4' lon='0.008130760654003326' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='6' lat='-0.003559726373603827' lon='-0.005734609335439431' >
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='7' lat='-4.2689671469293874E-4' lon='0.0020753203659871315' >
+<tag k='man_made' v='lighthouse' />
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<node id='8' lat='-1.5585118155456493E-4' lon='0.0025240389020386557' >
+<tag k='man_made' v='lighthouse' />
+<tag k='nombre' v='' />
+<tag k='entradasalida' v='0,0,0,,0,0,0' />
+</node>
+<segment id='3' from='3' to='4'>
+<tag k='nCarrilesIda' v='1' />
+<tag k='nCarrilesVuelta' v='1' />
+<tag k='velMax' v='50.0' />
+</segment>
+<segment id='4' from='3' to='5'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='70.0' />
+</segment>
+<segment id='5' from='6' to='3'>
+<tag k='nCarrilesIda' v='1' />
+<tag k='nCarrilesVuelta' v='1' />
+<tag k='velMax' v='60.0' />
+</segment>
+<segment id='6' from='2' to='7'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='70.0' />
+</segment>
+<segment id='7' from='7' to='3'>
+<tag k='nCarrilesIda' v='2' />
+<tag k='nCarrilesVuelta' v='2' />
+<tag k='velMax' v='70.0' />
+</segment>
+<way id='2'>
+<seg id='6'/>
+<seg id='7'/>
+<tag k='highway' v=' motorway' />
+<tag k='nombre' v='av americas' />
+<tag k ='bus line' v='no' />
+</way>
+
+<way id='3'>
+<seg id='3'/>
+<tag k='highway' v=' motorway' />
+<tag k='nombre' v='leoan' />
+<tag k ='bus line' v='no' />
+</way>
+
+<way id='4'>
+<seg id='4'/>
+<tag k='highway' v=' motorway' />
+<tag k='nombre' v='av americas' />
+<tag k ='bus line' v='no' />
+</way>
+
+<way id='5'>
+<seg id='5'/>
+<tag k='highway' v=' motorway' />
+<tag k='nombre' v='huacas' />
+<tag k ='bus line' v='no' />
+</way>
+
+</osm>
